@@ -21,3 +21,4 @@ public class Clothing extends Product{
         return super.get_description() + "and its brand is " + brand;
     }
 }
+

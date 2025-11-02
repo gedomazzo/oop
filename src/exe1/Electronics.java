@@ -23,3 +23,4 @@ public class Electronics extends Product{
         return super.get_description() + "and you need a charger " + charger;
     }
 }
+
