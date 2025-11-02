@@ -1,0 +1,23 @@
+package exe2;
+
+import exe1.Product;
+
+public class Heavy extends Vehicles {
+    private int id;
+    private int age;
+    private int wheels;
+    private String control;
+    private int trailer;
+
+    public Heavy(int id, int age, int wheels, String control, int trailer) {
+       super(id, age, wheels, control);
+       this.trailer =  trailer;
+    }
+
+    public int getTrailer() {
+        return this.trailer;
+    }
+    public void setTrailer(int trailer) {
+        this.trailer = trailer;
+    }
+}
