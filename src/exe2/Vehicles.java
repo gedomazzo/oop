@@ -5,6 +5,7 @@ public class Vehicles {
     private int age;
     private int wheels;
     private String control;
+
     public Vehicles(int id, int age, int wheels, String control) {
         this.id = id;
         this.age = age;
@@ -13,7 +14,7 @@ public class Vehicles {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
     public void setId(int id) {
         this.id = id;
@@ -22,7 +23,7 @@ public class Vehicles {
 
 
     public int getAge() {
-        return age;
+        return this.age;
     }
     public void setAge(int age) {
         this.age = age;
@@ -31,7 +32,7 @@ public class Vehicles {
 
 
     public int getWheels() {
-        return wheels;
+        return this.wheels;
     }
 
     public void setWheels(int wheels) {
@@ -41,11 +42,20 @@ public class Vehicles {
 
 
     public String getControl() {
-        return control;
+        return this.control;
     }
 
     public void setControl(String control) {
         this.control = control;
+    }
+
+    @Override
+    public String toString() {
+        return "age=" + this.age +
+                ", id=" + this.id +
+                ", wheels=" + this.wheels +
+                ", control='" + this.control + '\'' +
+                '}';
     }
 }
 
