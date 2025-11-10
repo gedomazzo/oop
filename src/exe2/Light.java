@@ -21,7 +21,9 @@ public class Light extends Vehicles{
     }
 
 
-
-
-
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "is there a motor: " + is_there_motor + "\n";
+    }
 }

@@ -20,4 +20,11 @@ public class Truck extends Heavy{
         this.weight = weight;
     }
 
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "weight: " + this.weight + "\n";
+    }
+
 }

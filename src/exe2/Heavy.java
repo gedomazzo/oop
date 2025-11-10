@@ -20,4 +20,11 @@ public class Heavy extends Vehicles {
     public void setTrailer(int trailer) {
         this.trailer = trailer;
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "trailer: " + trailer + "\n";
+    }
 }

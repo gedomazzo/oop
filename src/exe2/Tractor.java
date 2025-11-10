@@ -23,5 +23,9 @@ public class Tractor extends Heavy{
     }
 
 
-
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "trailor type: " + this.trailer_type + "\n";
+    }
 }

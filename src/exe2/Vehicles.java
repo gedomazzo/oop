@@ -51,11 +51,10 @@ public class Vehicles {
 
     @Override
     public String toString() {
-        return "age=" + this.age +
-                ", id=" + this.id +
-                ", wheels=" + this.wheels +
-                ", control='" + this.control + '\'' +
-                '}';
+        return "age: " + this.age + "\n" +
+                "id: " + this.id + "\n" +
+                "wheels: " + this.wheels + "\n" +
+                "control: " + this.control + "\n";
     }
 }
 

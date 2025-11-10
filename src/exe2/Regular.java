@@ -18,4 +18,11 @@ public class Regular extends Vehicles {
     public void setPasagers(int pasagers) {
         this.pasagers = pasagers;
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n"
+                + "pasagers: " + this.pasagers + "\n";
+    }
 }

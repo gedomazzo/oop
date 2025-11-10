@@ -18,6 +18,13 @@ public class Cart extends Light {
     public void set_charge_time(int charge_time) {
         this.charge_time = charge_time;
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "time to charge: " + this.charge_time + "\n";
+    }
 }
 
 

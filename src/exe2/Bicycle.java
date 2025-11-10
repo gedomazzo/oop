@@ -22,4 +22,12 @@ public class Bicycle extends Light{
         return is_there_battery;
     }
 
+
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "is there a battery: " + this.is_there_battery + "\n";
+    }
+
 }
