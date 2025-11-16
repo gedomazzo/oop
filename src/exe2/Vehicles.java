@@ -5,12 +5,14 @@ public class Vehicles {
     private int age;
     private int wheels;
     private String control;
+    private int shew;
 
-    public Vehicles(int id, int age, int wheels, String control) {
+    public Vehicles(int id, int age, int wheels, String control, int shew) {
         this.id = id;
         this.age = age;
         this.wheels = wheels;
         this.control = control;
+        this.shew = shew;
     }
 
     public int getId() {
@@ -48,6 +50,17 @@ public class Vehicles {
     public void setControl(String control) {
         this.control = control;
     }
+
+
+    public int getShew() {
+        return this.shew;
+    }
+
+    public void setShew(int shew) {
+        this.shew = shew;
+    }
+
+
 
 
     public double exhaust(){

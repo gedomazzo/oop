@@ -7,10 +7,11 @@ public class Heavy extends Vehicles {
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private int trailer;
 
-    public Heavy(int id, int age, int wheels, String control, int trailer) {
-       super(id, age, wheels, control);
+    public Heavy(int id, int age, int wheels, String control, int shew, int trailer) {
+       super(id, age, wheels, control, shew);
        this.trailer =  trailer;
     }
 

@@ -5,11 +5,12 @@ public class Truck extends Heavy{
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private int trailer;
     private int weight;
 
-    Truck(int id, int age, int wheels, String control, int trailer, int weight) {
-        super(id, age, wheels, control, trailer);
+    Truck(int id, int age, int wheels, String control, int shew, int trailer, int weight) {
+        super(id, age, wheels, control, shew, trailer);
         this.weight = weight;
     }
 

@@ -5,11 +5,12 @@ public class Cart extends Light {
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private boolean is_there_motor;
     private int charge_time;
 
-    Cart(int id, int age, int wheels, String control, boolean is_there_motor,  int charge_time) {
-        super(id, age, wheels, control, is_there_motor);
+    Cart(int id, int age, int wheels, String control, int shew, boolean is_there_motor,  int charge_time) {
+        super(id, age, wheels, control, shew, is_there_motor);
         this.charge_time = charge_time;
     }
 

@@ -5,11 +5,12 @@ public class Bicycle extends Light{
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private boolean is_there_motor;
     private boolean is_there_battery;
 
-    Bicycle(int id, int age, int wheels, String control, boolean is_there_motor, boolean is_there_battery) {
-        super(id, age, wheels, control, is_there_motor);
+    Bicycle(int id, int age, int wheels, String control, int shew, boolean is_there_motor, boolean is_there_battery) {
+        super(id, age, wheels, control, shew, is_there_motor);
         this.is_there_battery = is_there_battery;
     }
 

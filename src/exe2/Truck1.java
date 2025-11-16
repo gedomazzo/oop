@@ -5,12 +5,13 @@ public class Truck1 extends Truck {
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private int trailer;
     private int weight;
     private int acceptable_weather;
 
-    Truck1(int id, int age, int wheels, String control, int trailer, int weight, int acceptable_weather) {
-        super(id, age, wheels, control, trailer, weight);
+    Truck1(int id, int age, int wheels, String control, int shew, int trailer, int weight, int acceptable_weather) {
+        super(id, age, wheels, control, shew, trailer, weight);
         this.acceptable_weather = acceptable_weather;
     }
 

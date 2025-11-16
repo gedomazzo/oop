@@ -5,10 +5,11 @@ public class Regular extends Vehicles {
     private int age;
     private int wheels;
     private String control;
+    private int shew;
     private int pasagers;
 
-    Regular(int id, int age, int wheels, String control, int pasagers) {
-        super(id, age, wheels, control);
+    Regular(int id, int age, int wheels, String control, int shew, int pasagers) {
+        super(id, age, wheels, control, shew);
         this.pasagers = pasagers;
     }
     
