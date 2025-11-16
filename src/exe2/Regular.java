@@ -31,6 +31,11 @@ public class Regular extends Vehicles {
     }
 
 
+    public int hitchhikers(int actual_passers){
+        return this.pasagers - actual_passers;
+    }
+
+
     @Override
     public String toString() {
         return super.toString() + "\n"

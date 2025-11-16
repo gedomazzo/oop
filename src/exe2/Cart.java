@@ -28,6 +28,10 @@ public class Cart extends Light {
     }
 
 
+    public int hitchhikers(int actual_passers){
+        return this.wheels - actual_passers;
+    }
+
     @Override
     public String toString() {
         return super.toString() + "\n" +
