@@ -12,12 +12,23 @@ public class Main {
     }
 
 
-    public void totsl_sound(Vehicles[] arr){
+    public void total_sound(Vehicles[] arr){
         for (Vehicles x : arr) {
             if (x instanceof Regular){
                  ((Regular)x).noise();
             }
         }
+    }
+
+    public int how_many_time_charges(Vehicles[] arr) {
+        int total = 0;
+        for (Vehicles x : arr) {
+            if (x instanceof Cart) {
+                total++;
+            }
+        }
+
+            return total;
     }
 
 
