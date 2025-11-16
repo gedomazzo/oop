@@ -21,6 +21,12 @@ public class Regular extends Vehicles {
 
 
     @Override
+    public double exhaust(){
+        return super.exhaust() * pasagers;
+    }
+
+
+    @Override
     public String toString() {
         return super.toString() + "\n"
                 + "pasagers: " + this.pasagers + "\n";
