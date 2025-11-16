@@ -49,6 +49,13 @@ public class Vehicles {
         this.control = control;
     }
 
+
+    public int exhaust(){
+        return this.wheels * this.age;
+    }
+
+
+
     @Override
     public String toString() {
         return "age: " + this.age + "\n" +
