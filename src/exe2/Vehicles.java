@@ -64,7 +64,7 @@ public class Vehicles {
 
 
     public double exhaust(){
-        return this.wheels * this.age;
+        return this.shew * 60;
     }
 
 
