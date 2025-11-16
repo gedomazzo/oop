@@ -12,5 +12,14 @@ public class Main {
     }
 
 
+    public void totsl_sound(Vehicles[] arr){
+        for (Vehicles x : arr) {
+            if (x instanceof Regular){
+                 ((Regular)x).noise();
+            }
+        }
+    }
+
+
     public static void main(String[] args) {}
 }
