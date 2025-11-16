@@ -23,6 +23,13 @@ public class Heavy extends Vehicles {
 
 
     @Override
+    public int exhaust(){
+        return super.exhaust() + 500;
+    }
+
+
+
+    @Override
     public String toString() {
         return super.toString() + "\n" +
                 "trailer: " + trailer + "\n";
