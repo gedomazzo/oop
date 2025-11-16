@@ -26,6 +26,11 @@ public class Regular extends Vehicles {
     }
 
 
+    public void noise(){
+        System.out.println(wheels * 100 + "; decibel");
+    }
+
+
     @Override
     public String toString() {
         return super.toString() + "\n"
