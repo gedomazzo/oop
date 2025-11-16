@@ -50,7 +50,7 @@ public class Vehicles {
     }
 
 
-    public int exhaust(){
+    public double exhaust(){
         return this.wheels * this.age;
     }
 

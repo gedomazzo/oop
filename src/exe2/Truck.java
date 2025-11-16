@@ -22,6 +22,12 @@ public class Truck extends Heavy{
 
 
     @Override
+    public double exhaust() {
+        return super.exhaust() * 1.5;
+    }
+
+
+    @Override
     public String toString() {
         return super.toString() + "\n" +
                 "weight: " + this.weight + "\n";

@@ -23,7 +23,7 @@ public class Heavy extends Vehicles {
 
 
     @Override
-    public int exhaust(){
+    public double exhaust(){
         return super.exhaust() + 500;
     }
 
